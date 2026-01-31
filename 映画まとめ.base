@@ -1,0 +1,8 @@
+views:
+  - type: cards
+    name: Card
+    filters:
+      and:
+        - file.folder == "映画"
+    image: note.image
+    imageFit: contain

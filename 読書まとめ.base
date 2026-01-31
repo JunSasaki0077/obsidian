@@ -1,0 +1,15 @@
+formulas:
+  thumbnail: image(file.properties.image)
+  image: if(["jpg","git","webp","jpeg","avif","png"].contains(file.embeds[0].asFile().ext),file.embeds[0])
+views:
+  - type: cards
+    name: Card
+    filters:
+      and:
+        - file.folder == "読書"
+    order:
+      - file.name
+    image: note.image
+    imageAspectRatio: 0.85
+    cardSize: 200
+    imageFit: contain

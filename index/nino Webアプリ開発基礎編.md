@@ -67,12 +67,6 @@ export default PetsPage;
 petsの名前があった場合は検索結果のペットを表示し、
 ない場合はデータベースから取得したペットを表示するといった流れ
 
-```tsx
-const { name } = await loadSearchParams(searchParams);
-const pets = name ? await searchPets(name) : await getPets();
-```
-
-これを追加した際に今まで大丈夫だったmap関数のpetsがエラーを吐いた
 今までのpetsの型は
 
 ```ts
@@ -84,7 +78,15 @@ hp: number;
 ownerId: string;  
 }
 ```
-ひとつ
+ひとつの配列として型を取れていたのに
+これを追加した際に今まで大丈夫だったmap関数の
+petsの形が変化してしまった
+
+```tsx
+const { name } = await loadSearchParams(searchParams);
+const pets = name ? await searchPets(name) : await getPets();
+```
+
 ```ts
 const pets: {  
 type: "dog" | "cat";  
@@ -100,3 +102,9 @@ hp: number;
 ownerId: string;  
 }[] | undefined
 ```
+
+
+#### 検証と解消法
+
+そもそもundefinedじゃないようにすればいいと考え
+map関数のpetsに`!`や`?` をつけた。

@@ -107,4 +107,11 @@ ownerId: string;
 #### 検証と解消法
 
 そもそもundefinedじゃないようにすればいいと考え
-map関数のpetsに`!`や`?` をつけた。
+map関数のpetsに`!`の[[ノンアサーション演算子]]や`?`の[[オプショナル]] を
+使用したが結局
+
+```ts
+プロパティ 'map' は型 '{ type: "dog" | "cat"; name: string; id: string; hp: number; ownerId: string; } | { type: "dog" | "cat"; name: string; id: string; hp: number; ownerId: string; }[]' に存在しません
+```
+
+とundefinedではないけど、

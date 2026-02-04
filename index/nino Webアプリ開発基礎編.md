@@ -36,60 +36,67 @@
 ```tsx
 import PetCard from '@/components/pet-card';
 import PetSearchForm from '@/components/pet-search-form';
-
 import { getPets, searchPets } from '@/data/pet';
-
 import { createLoader, parseAsString } from 'nuqs/server';
 
-  
-
 const loadSearchParams = createLoader({
-
 name: parseAsString.withDefault(''),
-
 });
 
-  
-
 const PetsPage = async ({ searchParams }: PageProps<'/pets'>) => {
-
 const { name } = await loadSearchParams(searchParams);
-
 const pets = name ? await searchPets(name) : await getPets();
 
-  
-
 return (
-
 <div className='container py-10'>
-
 <PetSearchForm />
-
 <h1 className='text-2xl font-bold mb-6'>ペット一覧</h1>
-
 <div className='grid grid-cols-3 gap-4'>
-
 {pets.map((pet) => (
-
 <div key={pet.id}>
-
 <PetCard pet={pet} />
-
 </div>
-
 ))}
-
 </div>
-
 </div>
-
 );
-
 };
-
 export default PetsPage;
 ```
 
-これを追加した際に起きた、このコードは
 petsの名前があった場合は検索結果のペットを表示し、
-ない場合はデータベースから取得したペットを表示するといったながれだ
+ない場合はデータベースから取得したペットを表示するといった流れ
+
+```tsx
+const { name } = await loadSearchParams(searchParams);
+const pets = name ? await searchPets(name) : await getPets();
+```
+
+これを追加した際に今まで大丈夫だったmap関数のpetsがエラーを吐いた
+今までのpetsの型は
+
+```ts
+const pets: {  
+type: "dog" | "cat";  
+name: string;  
+id: string;  
+hp: number;  
+ownerId: string;  
+}
+```
+ひとつ
+```ts
+const pets: {  
+type: "dog" | "cat";  
+name: string;  
+id: string;  
+hp: number;  
+ownerId: string;  
+} | {  
+type: "dog" | "cat";  
+name: string;  
+id: string;  
+hp: number;  
+ownerId: string;  
+}[] | undefined
+```

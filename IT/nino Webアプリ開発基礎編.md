@@ -117,3 +117,16 @@ ownerId: string;
 
 とundefinedではないけど、`オブジェクト`か`配列`ではないよねと怒られてしまう。
 そもそも[[mapメソッド]]では配列以外はエラーを吐く
+
+
+## favicon
+
+apple-touch-iconをapple-iconに変更することにより
+iphoneでホーム画面の画像を指定することができる。
+
+androidの場合は１番大きいサイズのicon.pngにすることで指定できる。
+
+
+## Seed
+
+drizze-seedを用いることで

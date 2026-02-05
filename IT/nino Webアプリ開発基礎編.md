@@ -129,4 +129,25 @@ androidの場合は１番大きいサイズのicon.pngにすることで指定�
 
 ## Seed
 
-drizze-seedを用いることで
+drizze-seedを用いることでdrizzleにテストのデータを入れることができる。
+やり方はdbの中に`seed.ts`を作成し、コードを書く
+
+```ts
+async function main() {
+await seed(db, { users, pets }).refine((f) => ({
+pets: {
+count: 100,
+columns: {
+hp: f.int({
+minValue: 0,
+maxValue: 100,
+}),
+},
+},
+}));
+process.exit(0);
+}
+main();
+```
+
+seedの中にdrizzleを指定して

@@ -47,4 +47,15 @@
 	- ローカルの[[commit]]を[[リモート]]へ送信
 
 #### やり直し・修正系（事故対応）
-- 
+- git restore ファイル名
+	- ファイルを変更前に戻す
+	- `commit前限定！`
+- git restore --staged ファイル名
+	- [[add]]を取り消す
+- git reset HEAD~1
+	- 直前の[[commit]]を残す(履歴は残る)
+- git revert commitID
+	- commitを`打ち消すcommit`を作る
+	- **実務ではreset HEAD~1よりこっちが安全**
+
+#### マージ・履歴整理

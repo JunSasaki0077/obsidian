@@ -3,17 +3,12 @@
 [[Git]]のコマンドの一つ
 `git brench　ブランチ名`とすることで[[commit]]からの分岐を行える
 
+branchがない場合
 
 ```mermaid
-flowchart TD
+    gitGraph
+       commit id: "ボタン追加"
+       commit id: "テキスト変更"
+       commit id: "Header追加"
 
-A[A] --> B[B]
-
-B --> C{branch}
-
-C --> D[D]
-
-C -->|Two| E[E]
-
-C -->|Three| F[F]
 ```

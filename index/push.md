@@ -1,7 +1,7 @@
 #Git #IT #知識 
 
 [[Git]]コマンドの一つ
-今いるブランチの最新[[commit]]を[[GitHub]]に送るために使用する
+今いる[[branch]]の最新[[commit]]を[[GitHub]]に送るために使用する
 
 ## pushができないとき
 
@@ -16,4 +16,5 @@ rejected
 ```nginx
 git pull
 ```
-git [[pullを
+
+git [[pull]]をしてからpushする

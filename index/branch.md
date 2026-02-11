@@ -29,9 +29,9 @@ mainは本番環境の為なるべく触らないようにし、
 branchを切って作業を行うことになります。
 切ったbranchで作業を行ったあと[[push]]して
 [[GitHub]]上で[[プルリクエスト]]を行い
-レビューを受けて問題なければ[[marge]]を行う
+レビューを受けて問題なければ[[merge]]を行う
 
-marge後の図
+merge後の図
 
 ```mermaid
     gitGraph
@@ -41,6 +41,7 @@ marge後の図
        branch feature/login
        commit id: "ログインページ作成"
        checkout main
-       commit id:"ログインページ"
+       merge feature/login id:"ログインページ"
+       
 
 ```

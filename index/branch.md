@@ -12,4 +12,14 @@ branchがない場合
        commit id: "Header追加"
 
 ```
-branchを作成すると
+branchを作成しcommitをすると
+
+```mermaid
+    gitGraph
+       commit id: "ボタン追加"
+       commit id: "テキスト変更"
+       commit id: "Header追加"
+       branch feature/login
+       commit id: "ログインページ作成"
+
+```

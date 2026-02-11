@@ -30,3 +30,17 @@ branchを切って作業を行うことになります。
 切ったbranchで作業を行ったあと[[push]]して
 [[GitHub]]上で[[プルリクエスト]]を行い
 レビューを受けて問題なければ[[marge]]を行う
+
+marge後の図
+
+```mermaid
+    gitGraph
+       commit id: "ボタン追加"
+       commit id: "テキスト変更"
+       commit id: "Header追加"
+       branch feature/login
+       commit id: "ログインページ作成"
+       checkout main
+       commit id:"ログインページ"
+
+```

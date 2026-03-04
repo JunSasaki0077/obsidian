@@ -760,7 +760,14 @@ Select the correct answer.
 - Sales Development Team
     
 - Partner Development Manager
-    
+
+- Shopifyローンチコンサルタント
+
+- Shopifyサポート
+
+- セールス開発チーム
+
+- パートナー開発マネージャー
 
 ---
 
@@ -804,7 +811,13 @@ Select the correct answer.
     
 - Launch Engineer
     
+- 営業担当
 
+- テクニカルアカウントマネージャー
+
+- ソリューションエンジニア
+
+- ローンチエンジニア
 ---
 
 34. What is the main focus of the 'pitch' phase of the Shopify value pitch process?
@@ -900,7 +913,7 @@ Select the correct answer.
     
 - エラーのない移行を確実にするため、コードをレビューする
     
-- ーチャントがビジネス上の問題を技術的なソリューションに置き換えるのを支援する
+- マーチャントがビジネス上の問題を技術的なソリューションに置き換えるのを支援する
     
 - マーチャントのスタッフにShopifyの使用方法をトレーニングする
     

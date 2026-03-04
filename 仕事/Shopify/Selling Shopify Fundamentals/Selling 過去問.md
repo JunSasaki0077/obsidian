@@ -462,8 +462,8 @@ Select the two correct answers.
 ---
 
 20. Jamison Jewels is concerned about the increasing cost of IT as their business grows. Which question would help you best understand the scope of their problem?
-
-  
+    
+    ジェイミソン・ジュエルズは、事業拡大に伴うITコストの増加を懸念しています。同社の問題の範囲を理解するために、どの質問が最も役立ちますか？ 
 
 Select the correct answer.
 
@@ -474,7 +474,14 @@ Select the correct answer.
 - How often do you require IT maintenance?
     
 - What is your current IT maintenance budget?  
-      
+	  
+- 現在、具体的にどのようなIT課題に直面していますか？
+
+- ITコストの増加に気づいたのはいつですか？
+
+- ITメンテナンスはどのくらいの頻度で必要ですか？
+
+- 現在のITメンテナンス予算はいくらですか？
     
 
 ---
@@ -983,6 +990,4 @@ Select the correct answer.
 **
 
 
-
-![[テスト 1]]
 

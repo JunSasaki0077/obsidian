@@ -827,6 +827,7 @@ Select the correct answer.
 ---
 
 35. What is the primary purpose of an RFI in the sales process?
+販売プロセスにおける RFI の主な目的は何ですか?
 
 Select the correct answer.
 

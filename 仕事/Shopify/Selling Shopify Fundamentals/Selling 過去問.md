@@ -591,6 +591,8 @@ Select the correct answer.
 
 25. What determines the base price a merchant pays for Shopify Plus?
 
+販売者が Shopify Plus に支払う基本価格はどのようにして決まりますか?
+
 - The number of checkouts processed in a month
     
 - The daily traffic to their store
@@ -598,7 +600,14 @@ Select the correct answer.
 - The number of products listed on their store
     
 - Their monthly sales volume
-    
+
+- 1ヶ月間のチェックアウト処理数
+
+- 店舗への1日あたりのトラフィック数
+
+- 店舗に掲載されている商品数
+
+- 月間売上高
 
 ---
 

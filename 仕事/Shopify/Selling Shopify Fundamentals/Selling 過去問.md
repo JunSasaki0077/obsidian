@@ -295,6 +295,7 @@ Select the correct answer.
 ---
 
 13. Which of the following is a common objection for mid-market segment merchants?
+次のうち、ミッドマーケットセグメントのマーチャントにとって一般的な異議はどれですか？
 
 - Internal politics
     
@@ -395,7 +396,8 @@ Select the correct answer.
 
 ---
 
-17. While in a discovery call with a merchant, they mention a value of their brand is creating unique shopping experiences to delight their customers. Which value pillar would be most relevant to lead with for further conversations about Shopify fit?
+  17. While in a discovery call with a merchant, they mention a value of their brand is creating unique shopping experiences to delight their customers. Which value pillar would be most relevant to lead with for further conversations about Shopify fit?
+マーチャントとのディスカバリーコール中に、彼らは自社ブランドの価値として、顧客を喜ばせるためのユニークなショッピング体験を創出すると述べました。Shopifyの適合性に関する今後の議論において、どのバリューピラーをリードするのが最も適切でしょうか？
 
 Select the correct answer.
 
@@ -406,6 +408,11 @@ Select the correct answer.
 - Innovation you can customize
     
 - Meet your buyers where they're at
+
+- 自信を持って業務を遂行
+- スピードと俊敏性
+- カスタマイズ可能なイノベーション
+- 顧客の求めるニーズに応える
     
 
 ---

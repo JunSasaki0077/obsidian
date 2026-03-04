@@ -295,6 +295,7 @@ Select the correct answer.
 ---
 
 13. Which of the following is a common objection for mid-market segment merchants?
+次のうち、ミッドマーケットセグメントのマーチャントにとって一般的な異議はどれですか？
 
 - Internal politics
     

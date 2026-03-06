@@ -109,6 +109,11 @@ The feature-parity-from-their-existing platform 
 
 Their excitement to innovate 
 
+*The maintenance period may be subject to change without notice depending on the progress.
+*The maintenance period may be subject to change without notice depending on the progress.
+
+
+
 Their top predicted challenges 
 
 Question 5: Correct answer 

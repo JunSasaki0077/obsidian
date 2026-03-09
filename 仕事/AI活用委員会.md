@@ -37,6 +37,11 @@ NotebookLMで議題を投げて返答したら通知が来るようにしたい
 	- [ ] Solution Planning Fundamentals
 	- [ ] Shopify Development Fundamentals
 
+## 懸念点
+- リリースチェックの際に１度で出してくれず何回も他にないか聞いた。
+- WMSの略の記入部分が40文字以上超えた
+  →商品修正のソースにて追記したため、再度検証してみる。
+- 修正箇所を出してくれたがとても見づらい
 
 ## Shopifyテスト
 

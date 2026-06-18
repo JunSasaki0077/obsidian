@@ -179,8 +179,8 @@ textarea に`field-sizing-content`を指定することで
 
 ```diff html
 <div class="group">
--  <div class="group-has-[&[data-potato]]:opacity-100">
-+  <div class="group-has-data-potato:opacity-100">
+- <div class="group-has-[&[data-potato]]:opacity-100">
++ <div class="group-has-data-potato:opacity-100">
     <!-- ... -->
   </div>
   <div data-potato>
@@ -264,3 +264,7 @@ v3 から一気に v4 にアップデートしたいけど
 あるのでぜひ見てみてください。
 
 [公式ドキュメント](https://tailwindcss.com/docs/v4-beta#using-the-theme-function)
+
+## 関連ノート
+
+- [[27 ムーザルのプログラミング絶望ラジオ]]

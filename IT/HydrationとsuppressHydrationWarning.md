@@ -44,7 +44,7 @@ JavaScriptとの間に不一致がある場合にエラーが発生する。
 4. レンダリングロジックで`Date()`コンストラクタなどの時間依存APIを使用する
 5. ブラウザの拡張機能でHTMLを変更する
 6. [CSS-in-JSライブラリの設定が間違っている](https://nextjs.org/docs/app/building-your-application/styling/css-in-js)
-7.  [Cloudflare Auto Minify](https://developers.cloudflare.com/speed/optimization/content/auto-minify/)など、HTMLレスポンスを変更しようとする、正しく構成されていないEdge/CDN[](https://developers.cloudflare.com/speed/optimization/content/auto-minify/)
+7. [Cloudflare Auto Minify](https://developers.cloudflare.com/speed/optimization/content/auto-minify/)など、HTMLレスポンスを変更しようとする、正しく構成されていないEdge/CDN[](https://developers.cloudflare.com/speed/optimization/content/auto-minify/)
 
  #### エラーの解消策
 1. `useEffect`を使用してクライントのみで実行する
@@ -68,3 +68,7 @@ JavaScriptとの間に不一致がある場合にエラーが発生する。
 <p>{Math.random()}</p>
 ```
 ＊値が毎回ランダムに生成される為
+
+## 関連ノート
+
+- [[Nextjsの考え方]]

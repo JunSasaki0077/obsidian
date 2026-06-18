@@ -142,3 +142,9 @@ type KeyValuesAndName = {
   name: string; //追加のプロパティ
 } 
 ```
+
+## 関連ノート
+
+- [[Conditional Types]]
+- [[インデックス型]]
+- [[noUncheckedIndexedAccess]]

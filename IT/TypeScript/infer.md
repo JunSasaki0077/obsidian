@@ -42,3 +42,8 @@ type X = ReturnType<typeof request>;
 
 `infer`を使うことによってある型`T`が廃鉄ふぇある場合はその要素の型、
 そうでない場合は`never`を返す`Flatten<T>`を作成してみましょう。
+
+## 関連ノート
+
+- [[Conditional Types]]
+- [[Mapped Types]]

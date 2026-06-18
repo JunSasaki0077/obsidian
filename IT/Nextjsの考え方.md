@@ -1009,9 +1009,9 @@ export async function getUser() {
 
  export function UserProfileForm({ defaultUser }: { defaultUser: UserProfile }) {
    // ...省略...
--  const onClick = () => {
-+  const onClick = async () => {
-+      await updateProfile(formData);
+- const onClick = () => {
++ const onClick = async () => {
++ await updateProfile(formData);
      // ...省略...
    };
 
@@ -3163,3 +3163,8 @@ export async function login(prevState: unknown, formData: FormData) {
 ## トレードオフ
 
 特になし
+
+## 関連ノート
+
+- [[HydrationとsuppressHydrationWarning]]
+- [[Node.js]]

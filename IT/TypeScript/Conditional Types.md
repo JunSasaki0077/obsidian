@@ -84,3 +84,9 @@ kimberley.address.city = "Seattle";
 
 これでネストされているプロパティ要素も書き換え不可となっているのがわかります。
 `Freeze<T>`が再帰的なっているからです。
+
+## 関連ノート
+
+- [[Mapped Types]]
+- [[infer]]
+- [[インデックス型]]

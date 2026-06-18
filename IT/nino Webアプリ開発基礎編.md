@@ -151,3 +151,8 @@ main();
 ```
 
 seedの中にdrizzleを指定して
+
+## 関連ノート
+
+- [[Nextjsの考え方]]
+- [[zodResolver]]

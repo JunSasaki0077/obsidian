@@ -23,3 +23,8 @@ image: https://m.media-amazon.com/images/I/71vAbDR7CyL._SL1500_.jpg
 　本の最後の方でObsidianでAIを使用する方法がかいてあった
 　途中でVSCodeでやらせた意味わからん
 　ただこのメモは捗る
+
+## 関連ノート
+
+- [[Claude Cowork]]
+- [[AI活用委員会]]
